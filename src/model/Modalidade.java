@@ -16,6 +16,7 @@ public class Modalidade {
         this.codigo = codigo;
     }
 
+    
     public String getNome() {
         return nome;
     }
