@@ -6,7 +6,8 @@ import java.util.Calendar;
 
 public class Aluno {
     
-    private String nome, cpf, email;
+    private String nome, cpf, email, telefone;
+    private int  codigo;
     private Calendar dataNascimento;
 
     public Calendar getDataNascimento() {
@@ -16,8 +17,7 @@ public class Aluno {
     public void setDataNascimento(Calendar dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
-    
-    
+   
 
     public String getNome() {
         return nome;
@@ -42,10 +42,23 @@ public class Aluno {
     public void setEmail(String email) {
         this.email = email;
     }
- 
 
-  
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
     
-    
-    
+   
 }
