@@ -1,11 +1,23 @@
 
 package model;
 
+import java.util.Calendar;
+
 
 public class Aluno {
     
-    private String nome, cpf, email, numero;
+    private String nome, cpf, email, telefone;
     private int  codigo;
+    private Calendar dataNascimento;
+
+    public Calendar getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(Calendar dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+   
 
     public String getNome() {
         return nome;
@@ -31,12 +43,13 @@ public class Aluno {
         this.email = email;
     }
 
-    public String getNumero() {
-        return numero;
+
+    public String getTelefone() {
+        return telefone;
     }
 
-    public void setNumero(String numero) {
-        this.numero = numero;
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
     }
 
     public int getCodigo() {
@@ -47,9 +60,5 @@ public class Aluno {
         this.codigo = codigo;
     }
     
-    
-    
-    
-    
-    
+   
 }
