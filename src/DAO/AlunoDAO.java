@@ -16,7 +16,7 @@ public class AlunoDAO {
         String sql = "INSERT INTO Alunos "
                 + "(Codigo, nome, CPF, Telefone, DataNascimento, FormaPagamento, ModalidadesCod, TotalCod, PlanosCod) VALUES("
                 + " '" + aluno.getNome() + "' , "
-                + " '" + aluno.getCPF() + "' , "
+                + " '" + aluno.getCpf() + "' , "
                 + " '" + aluno.getTelefone() + "' , "
                 + " '" + aluno.getDataNascimento() + "' , "
                 + " '" + aluno.getPagamento() + "' , "
