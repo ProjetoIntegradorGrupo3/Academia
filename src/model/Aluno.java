@@ -6,9 +6,10 @@ import java.util.Calendar;
 
 public class Aluno {
     
-    private String nome, cpf, email, telefone;
+    private String nome, cpf, email, telefone, ModalidadesCod, PlanosCod;
     private int  codigo;
     private Calendar dataNascimento;
+    private Double pagamento, TotalCod;
 
     public Calendar getDataNascimento() {
         return dataNascimento;
