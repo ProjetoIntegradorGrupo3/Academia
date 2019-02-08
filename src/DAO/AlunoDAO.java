@@ -31,12 +31,12 @@ public class AlunoDAO {
     
     
     public static void editar (Aluno aluno) {
-        String data = "" + aluno.getDataNasimento().get(Calendar.YEAR)
-                + "-" + (aluno.getDataNasimento().get(Calendar.MONTH)+1)
-                + "-" +  aluno.getDataNasimento().get(Calendar.DAY_OF_MONTH);
+        String data = "" + aluno.getDataNascimento().get(Calendar.YEAR)
+                + "-" + (aluno.getDataNascimento().get(Calendar.MONTH)+1)
+                + "-" +  aluno.getDataNascimento().get(Calendar.DAY_OF_MONTH);
         String sql = "UPDATE Alunos "
                 + " '" + aluno.getNome() + "' , "
-                + " '" + aluno.getCPF() + "' , "
+                + " '" + aluno.getCpf() + "' , "
                 + " '" + aluno.getTelefone() + "' , "
                 + " '" + aluno.getDataNascimento() + "' , "
                 + " '" + aluno.getPagamento() + "' , "
