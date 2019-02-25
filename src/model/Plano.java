@@ -18,6 +18,13 @@ public class Plano {
     public String getNome() {
         return nome;
     }
+    
+    public Plano() { 
+
+}
+       public Plano(int codigo, String nome){
+    this.codigo = codigo;
+    this.nome = nome;}
 
     public void setNome(String nome) {
         this.nome = nome;

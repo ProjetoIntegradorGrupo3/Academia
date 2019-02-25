@@ -46,11 +46,11 @@ public class Aluno {
         this.pagamento = pagamento;
     }
 
-    public Double getTotalCod() {
+    public int getTotalCod() {
         return TotalCod;
     }
 
-    public void setTotalCod(Double TotalCod) {
+    public void setTotalCod(int TotalCod) {
         this.TotalCod = TotalCod;
     }
    
@@ -69,14 +69,6 @@ public class Aluno {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
 
